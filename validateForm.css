@@ -1,0 +1,48 @@
+.container{
+    box-shadow: 0px 0px 7px black;
+    height: 700px;
+    width: 400px;
+    margin:50px auto;
+    margin-top: 80px;
+    border-radius: 8px;
+   /* background: radial-gradient(green,yellow); */
+}
+h2{
+    text-shadow: 0px 0px 6px black;
+}
+.label{
+    margin-left: 25px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input:hover{
+    background: linear-gradient(orange,lightyellow,lightgreen);
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+button{
+ width: 94%;
+ height: 40px;
+ color:black;
+ background:linear-gradient(pink);
+ border-radius: 10px;
+ border:none;
+ box-shadow: 0px 0px 5px;
+}
+button:hover{
+    background:linear-gradient(rgb(229, 151, 229),rgb(245, 190, 88));
+    border: none;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+.error{
+    color:maroon;
+    font-size: 13px;
+}
